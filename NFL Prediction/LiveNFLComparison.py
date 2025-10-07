@@ -2,7 +2,7 @@
 import os, re, requests, pandas as pd, numpy as np
 
 # ===== CONFIG =====
-DATA_DIR = r"C:\Users\casey\OneDrive\Desktop\Personal\Coding\NFL Prediction\data"
+DATA_DIR = r"C:\Users\casey\OneDrive\Desktop\Personal\Coding\NFL-Win-Prediction\NFL Prediction\data"
 YEAR = 2025
 ENSEMBLE_FILE = os.path.join(DATA_DIR, f"rankings_{YEAR}_ensemble2.csv")
 OUT_FILE      = os.path.join(DATA_DIR, f"LiveNFLComparison{YEAR}.csv")
@@ -126,6 +126,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
